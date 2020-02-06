@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="append-to-me"></div>
+</head>
+
+<nav class="navbar navbar-light bg-light">
+  <h1 class="navbar">Weather Dashboard</h1>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+
+    <div class="container">
+
+      <h1 class="display-4">Dallas </h1>
+      <p id="currentDay" class="lead"></p>
+
+      <script>
+      var d = new Date();
+      document.getElementById("currentDay").innerHTML = d;
+      </script>
+      </p>
+    </header>
+    <script type="text/javascript"></script>
+
+      <ul class="list-group">
+      <li>Temperature:</li>
+      <li>Humidity:</li>
+      <li>Wind Speed:</li>
+      <li>UV Index:</li>
+     </ul>
+      </p>
+    </div>
+  </div>
+  <form class="form-inline">
+
+        <label class="sr-only" for="search">Name</label>
+        <input type="text" class="form-control mb-2 mr-sm-2" id="searchplace">
+        <button type="submit" class="btn btn-primary mb-2">Search</button>
+
+    <div class="list-group">   
+    <button type="button" class="list-group-item list-group-item-action">Austin</button>
+    <button type="button" class="list-group-item list-group-item-action">Chicago</button>
+    <button type="button" class="list-group-item list-group-item-action">New York</button>
+    <button type="button" class="list-group-item list-group-item-action">Orlando</button>
+    <button type="button" class="list-group-item list-group-item-action">San Francisco</button>
+    <button type="button" class="list-group-item list-group-item-action">Seattle</button>
+    <button type="button" class="list-group-item list-group-item-action">Denver</button>
+    <button type="button" class="list-group-item list-group-item-action">Atlanta</button>
+    </div>
+<body>
+    
+</body>
+</html>
